@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
 import {StyleSheet, Text, View, Button} from 'react-native'
 
 
@@ -24,16 +23,3 @@ const styles = StyleSheet.create({
 });
 
 export default HomeScreen
-
-// function mapStateToProps(state) {
-//   return {};
-// }
-//
-// function mapDispatchToProps(dispatch) {
-//   return {}
-// }
-
-// export default connect(
-//   mapStateToProps,
-//   mapDispatchToProps
-// )(HomeScreen);

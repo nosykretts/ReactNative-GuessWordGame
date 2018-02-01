@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
 import {Text, View, Button, StyleSheet} from 'react-native'
 
 export default class FinishScreen extends Component {
@@ -28,11 +27,3 @@ const styles = StyleSheet.create({
     fontSize: 40
   }
 });
-
-// function mapStateToProps(state) {
-//   return {};
-// }
-//
-// export default connect(
-//   mapStateToProps,
-// )(FinishScreen);
